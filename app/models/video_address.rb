@@ -3,8 +3,8 @@ module VideoAddress
   ManySites = Class.new(Exception)
 
   KNOWN_SITES = {
-    'youtube' => /youtube/,
-    'vimeo' => /vimeo/
+    youtube: /youtube/,
+    vimeo: /vimeo/
   }
 
   def self.find_site_name address
@@ -13,6 +13,8 @@ module VideoAddress
     return "other"        if sites.empty?
     raise ManySites
   end
-end
 
-# p VideoAddress.find_site_name 'youtubeasldas'
+  def self.store
+    HashWithIndifferentAccess.new YAML.load(File.read('./lib/assets/video_sites.yml'))
+  end
+end

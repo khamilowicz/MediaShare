@@ -1,32 +1,27 @@
 module MediaHelper
 
-	AddressReceipt = {
-		youtube: {
-			matcher: /\/watch\?v=(.+)/, 
-			matcher_index: 1, 
-			embed_prefix: "http://www.youtube.com/embed/"
-		}
-	}
-
-	def vimeo_frame address
-		number = address.match(/\d+/)[0]
-		address_real = "http://player.vimeo.com/video/#{number}"
-		iframe_tag address_real
+	def sites_store
+		@store  ||= VideoAddress.store 
 	end
 
-	def youtube_frame address
-		identifier = address.match(/\/watch\?v=(.+)/)[1]
-		address_real = "http://www.youtube.com/embed/#{identifier}"
-		iframe_tag address_real
+	def video_frame site, address
+		site_data = sites_store[site]
+
+		matcher, matcher_index      =   Regexp.new(site_data[:matcher]) , site_data[:matcher_index]
+		embed_prefix, embed_suffix  =   site_data[:embed_prefix]        , site_data[:embed_suffix]
+
+		identifier    =   address.match( matcher )[matcher_index]
+		address_real  =   [embed_prefix, identifier, embed_suffix].join
+		iframe_tag address_real	
 	end
 
 	def iframe_tag address
-		content_tag(:iframe, src: address )do end
+		content_tag(:iframe, src: address ){}
 	end
 
 	def embed_video medium
 		address = medium.address
 		site = VideoAddress.find_site_name(address)
-		send site + "_frame", address
+		video_frame site, address
 	end
 end

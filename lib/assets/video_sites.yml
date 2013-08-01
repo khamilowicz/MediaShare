@@ -1,0 +1,8 @@
+youtube: 
+  matcher: /watch\?v=(.+)
+  matcher_index: 1
+  embed_prefix: http://www.youtube.com/embed/
+vimeo:
+  matcher: \d+
+  matcher_index: 0
+  embed_prefix: http://player.vimeo.com/video/
