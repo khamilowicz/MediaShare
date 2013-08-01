@@ -5,6 +5,8 @@ gem 'rails', '4.0.0'
 gem 'rspec-rails'
 gem 'haml-rails'
 gem 'meta_request'
+gem 'better_errors'
+gem 'binding_of_caller'
 
 gem 'guard'
 gem 'guard-livereload'

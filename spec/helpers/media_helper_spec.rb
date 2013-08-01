@@ -1,15 +1,22 @@
 require 'spec_helper'
 
-# Specs in this file have access to a helper object that includes
-# the MediaHelper. For example:
-#
-# describe MediaHelper do
-#   describe "string concat" do
-#     it "concats two strings with spaces" do
-#       expect(helper.concat_strings("this","that")).to eq("this that")
-#     end
-#   end
-# end
 describe MediaHelper do
-  pending "add some examples to (or delete) #{__FILE__}"
+	let(:address){  "http://www.vimeo.com/123456"}
+	let(:helper){
+	}
+
+	describe "embed_video" do
+		it "calls vimeo frame when vimeo address" do
+
+			pending
+		end
+	end
+
+
+	describe "vimeo_frame" do
+		it "returns iframe with vimeo player and right id" do
+			frame = "<iframe src='http://www.player.vimeo.com/video/123456' >"
+			expect( helper.vimeo_frame(address) ).to eq(frame)
+		end
+	end
 end
