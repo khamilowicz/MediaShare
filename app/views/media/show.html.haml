@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @medium.name
+%p
+  %b Description:
+  = @medium.description
+%p
+  %b Address:
+  = @medium.address
+
+= link_to 'Edit', edit_medium_path(@medium)
+\|
+= link_to 'Back', media_path
