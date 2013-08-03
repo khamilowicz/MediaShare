@@ -1,5 +1,6 @@
 class MediaController < ApplicationController
   before_action :set_medium, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index]
 
   # GET /media
   # GET /media.json
@@ -25,6 +26,7 @@ class MediaController < ApplicationController
   # POST /media.json
   def create
     @medium = Medium.new(medium_params)
+    @medium.user = current_user
 
     respond_to do |format|
       if @medium.save

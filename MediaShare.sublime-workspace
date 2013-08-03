@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tr",
+				"trf-tx	transform: translateX(${1:x});"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"match",
+				"match_from_hash"
+			],
+			[
+				"mat",
+				"matcher_name"
+			],
+			[
+				"new",
+				"new_hash"
+			],
+			[
+				"vid",
+				"video_frame"
+			],
+			[
+				"add",
+				"address_real"
+			],
+			[
+				"ir",
+				"iframe_tag"
+			],
+			[
+				"if",
+				"iframe_tag"
+			],
+			[
+				"vime",
+				"vimeo_frame"
+			],
+			[
 				"in",
 				"index"
 			],
@@ -22,10 +94,6 @@
 			[
 				"di",
 				"dictionary"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"pro",
@@ -122,10 +190,6 @@
 			[
 				"produ",
 				"product_users"
-			],
-			[
-				"new",
-				"new_from_array"
 			],
 			[
 				"Prod",
@@ -244,10 +308,6 @@
 				"user2"
 			],
 			[
-				"add",
-				"address"
-			],
-			[
 				"curr",
 				"current_user"
 			],
@@ -300,10 +360,6 @@
 				"current_user"
 			],
 			[
-				"bac",
-				"background-size"
-			],
-			[
 				"from",
 				"fromtohash"
 			],
@@ -312,16 +368,8 @@
 				"session_args"
 			],
 			[
-				"min",
-				"min-width"
-			],
-			[
 				"re",
 				"relative"
-			],
-			[
-				"pos",
-				"pos-r	position: relative;"
 			],
 			[
 				"inlin",
@@ -428,10 +476,6 @@
 				"status_change_date"
 			],
 			[
-				"st",
-				"status_change_date"
-			],
-			[
 				"total",
 				"total_price"
 			],
@@ -470,73 +514,101 @@
 			[
 				"for",
 				"forward_port"
-			],
-			[
-				"to",
-				"to_json"
-			],
-			[
-				"impo",
-				"important_border"
-			],
-			[
-				"resp",
-				"response"
-			],
-			[
-				"la",
-				"latitude"
-			],
-			[
-				"lef",
-				"left_shadow"
-			],
-			[
-				"pad",
-				"padding-left"
-			],
-			[
-				"border-col",
-				"border-left-color"
-			],
-			[
-				"chan",
-				"channel_info"
-			],
-			[
-				"handl",
-				"handle_position"
-			],
-			[
-				"margi",
-				"margin"
-			],
-			[
-				"text",
-				"text-align"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/users/_form.html.haml",
+			"settings":
+			{
+				"buffer_size": 321,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20130802224455_add_nick_to_user.rb",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/registrations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 583,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1748,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 316,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 159.0,
 		"selected_items":
 		[
 			[
-				"ruby",
-				"Set Syntax: Ruby"
+				"reili",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"github",
+				"GitHub: Switch Accounts"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"reiil",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"gemf",
+				"Git-flow: Feature Start From Commit"
 			],
 			[
 				"renam",
 				"File: Rename"
 			],
 			[
-				"reili",
-				"Indentation: Reindent Lines"
+				"ruby",
+				"Set Syntax: Ruby"
 			],
 			[
 				"ren",
@@ -545,10 +617,6 @@
 			[
 				"rena",
 				"File: Rename"
-			],
-			[
-				"insl",
-				"Package Control: Install Package"
 			],
 			[
 				"remov",
@@ -625,10 +693,6 @@
 			[
 				"rename",
 				"File: Rename"
-			],
-			[
-				"dele",
-				"File: Delete"
 			],
 			[
 				"rein",
@@ -747,10 +811,6 @@
 				"File: Delete"
 			],
 			[
-				"del",
-				"File: Delete"
-			],
-			[
 				"gicoma",
 				"Git: Custom Command"
 			],
@@ -789,10 +849,6 @@
 			[
 				"diff",
 				"Git: Diff Current File"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"git com",
@@ -1021,22 +1077,6 @@
 			[
 				"git add .",
 				"Git: Add..."
-			],
-			[
-				"commi",
-				"Git: Commit"
-			],
-			[
-				"ein",
-				"Emmet: Increment Number by 1"
-			],
-			[
-				"git del",
-				"Git: Delete Branch"
-			],
-			[
-				"git bra",
-				"Git: Change Branch"
 			]
 		],
 		"width": 449.0
@@ -1059,6 +1099,36 @@
 	},
 	"file_history":
 	[
+		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802221630_add_devise_to_users.rb",
+		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802224214_create_users.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/views/media/index.html.haml",
+		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802222856_add_user_id_to_media.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/controllers/media_controller.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/models/medium.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/views/menu/_top_bar.html.haml",
+		"/home/kham/Projekty/Rails/MediaShare/app/views/layouts/application.html.erb",
+		"/home/kham/Projekty/Rails/MediaShare/config/routes.rb",
+		"/home/kham/Projekty/Rails/MediaShare/public/robots.txt",
+		"/home/kham/Projekty/Rails/MediaShare/Gemfile",
+		"/home/kham/Projekty/Rails/MediaShare/app/models/video_address.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/views/media/_medium.html.haml",
+		"/home/kham/Projekty/Experiments/hover_cards.html",
+		"/home/kham/Projekty/Experiments/style.css",
+		"/home/kham/Projekty/Rails/MediaShare/app/models/user.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/controllers/user_controller.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/controllers/users_controller.rb",
+		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802220949_devise_create_users.rb",
+		"/home/kham/Projekty/Rails/MediaShare/config/environments/development.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/assets/stylesheets/media.css.scss",
+		"/home/kham/Projekty/Rails/MediaShare/app/helpers/media_helper.rb",
+		"/home/kham/Projekty/Rails/MediaShare/lib/assets/video_sites.yml",
+		"/home/kham/Projekty/Rails/MediaShare/spec/helpers/media_helper_spec.rb",
+		"/home/kham/Projekty/Rails/MediaShare/spec/models/medium_spec.rb",
+		"/home/kham/Projekty/Rails/MediaShare/spec/models/video_address_spec.rb",
+		"/home/kham/Projekty/Rails/MediaShare/config/database.yml",
+		"/home/kham/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/kham/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/kham/Projekty/Rails/MediaShare/{:locations=>{\"./spec/models/video_address_spec.rb",
 		"/home/kham/Projekty/Ruby/exercism/ruby/bob/bob_test.rb",
 		"/home/kham/Projekty/Ruby/exercism/javascript/bob/bob.js",
 		"/home/kham/Projekty/Ruby/exercism/javascript/bob/bob_test.spec.js",
@@ -1094,7 +1164,6 @@
 		"/home/kham/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/kham/.config/sublime-text-3/Packages/RubyTest/RubyTest.sublime-settings",
 		"/home/kham/.config/sublime-text-3/Packages/User/RubyTest.sublime-settings",
-		"/home/kham/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/kham/.config/sublime-text-3/Packages/RubyTest/Default (Linux).sublime-keymap",
 		"/home/kham/Projekty/Rails/Jumpstart_store/config.rb",
 		"/home/kham/Projekty/Rails/Jumpstart_store/New_store_flow.sublime-project",
@@ -1157,36 +1226,7 @@
 		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/controllers/product_category_manager_controller.rb",
 		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/models/product_category_manager.rb",
 		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/models/product_user.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/layouts/application.html.erb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/sales/_inline_product.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/sales/index.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/controllers/application_controller.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/products/new.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/controllers/product_cart_manager_controller.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/controllers/sessions_controller.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/sessions/_menu.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/sales/_sale.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/products/_product.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/products/new_add_to_category.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/admin/products/_index_list.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/session/_menu.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/controllers/session_controller.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/admin/products/index_list.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/controllers/admin/sales_controller.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/New_store_flow.sublime-workspace",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/models/managers/warehouse.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/assets/stylesheets/review.css.scss",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/spec/models/user_spec.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/products/index_list.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/carts/show.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/spec/features/user/guest_spec.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/spec/factories/product_users.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/models/sale.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/products/index.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/products/index.js.erb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/users/show.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/spec/features/user/logged_user_spec.rb",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/presenters/user_presenter.rb"
+		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/layouts/application.html.erb"
 	],
 	"find":
 	{
@@ -1217,6 +1257,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"x",
+			"X",
+			"x",
+			"X",
+			"x",
+			"X",
+			"5px",
+			"translateX(-5px)",
+			"10px",
+			"10deg",
+			"key",
+			"params",
+			"medium",
+			"media",
 			"3",
 			"xit",
 			"splitted",
@@ -1330,21 +1384,7 @@
 			"get_di",
 			"address",
 			",\n,\n,",
-			",\n,",
-			",",
-			"zip_code",
-			"product_counter",
-			"    \n",
-			"change_slo",
-			"slogan",
-			"provis",
-			"your web-server here",
-			"users",
-			"user",
-			"votyokuseyznezrl",
-			"GMAIL_PASSWORD",
-			"this",
-			"products"
+			",\n,"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1379,7 +1419,7 @@
 			"handle.vertical",
 			"white\nwhite"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -1388,8 +1428,166 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/users/_form.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"vintage_lines.line": 6,
+							"vintage_lines.lines": 12,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "db/migrate/20130802224455_add_nick_to_user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"vintage_lines.line": 5,
+							"vintage_lines.lines": 5,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/devise/registrations/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"vintage_lines.line": 8,
+							"vintage_lines.lines": 21,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 46,
+							"vintage_lines.lines": 78,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"vintage_lines.line": 5,
+							"vintage_lines.lines": 11,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1426,7 +1624,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 243.0
+		"height": 363.0
 	},
 	"output.git":
 	{
@@ -1443,6 +1641,130 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"topbar",
+				"app/views/menu/_top_bar.html.haml"
+			],
+			[
+				"usercon",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"media",
+				"app/controllers/media_controller.rb"
+			],
+			[
+				"userform",
+				"app/views/users/_form.html.haml"
+			],
+			[
+				"new",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"userfor",
+				"app/views/users/_form.html.haml"
+			],
+			[
+				"addnick",
+				"db/migrate/20130802224455_add_nick_to_user.rb"
+			],
+			[
+				"migra",
+				"db/migrate/20130802224214_create_users.rb"
+			],
+			[
+				"conuser",
+				"app/controllers/user_controller.rb"
+			],
+			[
+				"orute",
+				"config/routes.rb"
+			],
+			[
+				"topb",
+				"app/views/menu/_top_bar.html.haml"
+			],
+			[
+				"medium",
+				"app/views/media/_medium.html.haml"
+			],
+			[
+				"mediainde",
+				"app/views/media/index.html.haml"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"adduseri",
+				"db/migrate/20130802222856_add_user_id_to_media.rb"
+			],
+			[
+				"mediacon",
+				"app/controllers/media_controller.rb"
+			],
+			[
+				"migruser",
+				"db/migrate/20130802220949_devise_create_users.rb"
+			],
+			[
+				"pphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"roo",
+				"public/robots.txt"
+			],
+			[
+				"conenvde",
+				"config/environments/development.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"scss",
+				"app/assets/stylesheets/media.css.scss"
+			],
+			[
+				"_medi",
+				"app/views/media/_medium.html.haml"
+			],
+			[
+				"medind",
+				"app/views/media/index.html.haml"
+			],
+			[
+				"yml",
+				"config/database.yml"
+			],
+			[
+				"modmedi",
+				"app/models/medium.rb"
+			],
+			[
+				"gme",
+				"Gemfile"
+			],
+			[
+				"medihelp",
+				"app/helpers/media_helper.rb"
+			],
+			[
+				"contmedi",
+				"app/controllers/media_controller.rb"
+			],
 			[
 				"bobterb",
 				"exercism/ruby/bob/bob_test.rb"
@@ -1506,10 +1828,6 @@
 			[
 				"e",
 				"exercism/elixir/bob/README.md"
-			],
-			[
-				"new",
-				"catch_output/new_file"
 			],
 			[
 				"spec",
@@ -1732,10 +2050,6 @@
 				"spec/features/user/administrator_spec.rb"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
 				"typinf",
 				"app/views/admin/types/_info.html.haml"
 			],
@@ -1816,10 +2130,6 @@
 				"app/views/sessions/_menu.html.haml"
 			],
 			[
-				"topbar",
-				"app/views/menu/_top_bar.html.haml"
-			],
-			[
 				"sess",
 				"app/controllers/session_controller.rb"
 			],
@@ -1842,118 +2152,6 @@
 			[
 				"menuto",
 				"app/views/menu/_top_bar.html.haml"
-			],
-			[
-				"add_to",
-				"app/views/products/new_add_to_category.html.haml"
-			],
-			[
-				"procatemancon",
-				"app/controllers/product_category_manager_controller.rb"
-			],
-			[
-				"prinlist",
-				"app/views/admin/products/index_list.html.haml"
-			],
-			[
-				"appcon",
-				"app/controllers/application_controller.rb"
-			],
-			[
-				"admimenu",
-				"app/views/menu/_admin_menu.html.haml"
-			],
-			[
-				"apphtml",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"admenu",
-				"app/views/menu/_admin_menu.html.haml"
-			],
-			[
-				"admipro",
-				"app/controllers/admin/products_controller.rb"
-			],
-			[
-				"menuadmin",
-				"app/views/menu/_admin_menu.html.haml"
-			],
-			[
-				"ware",
-				"app/models/managers/warehouse.rb"
-			],
-			[
-				"produse",
-				"app/models/product_user.rb"
-			],
-			[
-				"prrouser",
-				"spec/factories/product_users.rb"
-			],
-			[
-				"prouser",
-				"app/models/product_user.rb"
-			],
-			[
-				"pruser",
-				"app/models/product_user.rb"
-			],
-			[
-				"admnspe",
-				"spec/features/user/administrator_spec.rb"
-			],
-			[
-				"prind",
-				"app/views/products/index.html.haml"
-			],
-			[
-				"prodpre",
-				"app/presenters/product_presenter.rb"
-			],
-			[
-				"asset",
-				"app/models/asset.rb"
-			],
-			[
-				"produ",
-				"app/models/product.rb"
-			],
-			[
-				"produser",
-				"app/models/product_user.rb"
-			],
-			[
-				"schem",
-				"db/schema.rb"
-			],
-			[
-				"prohelp",
-				"app/helpers/products_helper.rb"
-			],
-			[
-				"proshor",
-				"app/views/products/_short.html.haml"
-			],
-			[
-				"prodpres",
-				"app/presenters/product_presenter.rb"
-			],
-			[
-				"usershar",
-				"spec/support/user_shared_examples_spec.rb"
-			],
-			[
-				"userpre",
-				"app/presenters/user_presenter.rb"
-			],
-			[
-				"proind",
-				"app/views/products/index.html.haml"
-			],
-			[
-				"logg",
-				"spec/features/user/logged_user_spec.rb"
 			]
 		],
 		"width": 0.0
@@ -1964,12 +2162,12 @@
 		"selected_items":
 		[
 			[
-				"blog",
-				"~/Projekty/Rails/Blog/blog.4.0.0.sublime-project"
-			],
-			[
 				"ruby",
 				"~/Projekty/Ruby/Ruby.sublime-project"
+			],
+			[
+				"blog",
+				"~/Projekty/Rails/Blog/blog.4.0.0.sublime-project"
 			],
 			[
 				"blo",
@@ -2020,8 +2218,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 265.0,
+	"side_bar_visible": false,
+	"side_bar_width": 404.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

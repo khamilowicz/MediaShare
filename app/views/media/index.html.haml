@@ -1,5 +1,6 @@
 %h1 Listing media
 
-= render @media
+.media
+  = render @media
 
-= link_to 'New Medium', new_medium_path
+= link_to 'New Medium', new_medium_path if user_signed_in?

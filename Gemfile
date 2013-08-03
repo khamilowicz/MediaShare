@@ -7,6 +7,8 @@ gem 'haml-rails'
 gem 'meta_request'
 gem 'better_errors'
 gem 'binding_of_caller'
+gem 'devise'
+gem 'omniauth-facebook'
 
 gem 'guard'
 gem 'guard-livereload'

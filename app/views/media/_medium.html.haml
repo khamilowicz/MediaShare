@@ -1,3 +1,8 @@
-.name= medium.name
-.address= embed_video(medium)
-.description= medium.description
+.medium 
+  .col.left
+    .user= medium.user
+    .name= medium.name
+    .date= medium.created_at
+    .description= medium.description
+  .col.right
+    .address= embed_video(medium)

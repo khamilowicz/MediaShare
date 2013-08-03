@@ -7,8 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+ <p class="notice"><%= notice %></p>
+ <p class="alert"><%= alert %></p>
 
-<%= yield %>
+
+<div class="logo">
+  <%= link_to "MEDIASHARE", root_url %>
+</div>
+<div class="top_bar">
+<%= render 'menu/top_bar'%>
+</div>
+ <%= yield %>
 
 </body>
 </html>
