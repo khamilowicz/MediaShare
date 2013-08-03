@@ -555,63 +555,7 @@
 			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 507,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/javascripts/facebook.coffee.erb",
-			"settings":
-			{
-				"buffer_size": 569,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/initializers/omniauth.rb",
-			"settings":
-			{
-				"buffer_size": 173,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 187,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/session_controller.rb",
-			"settings":
-			{
-				"buffer_size": 162,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/schema.rb",
-			"settings":
-			{
-				"buffer_size": 1755,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/initializers/devise.rb",
-			"settings":
-			{
-				"buffer_size": 12421,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/menu/_top_bar.html.haml",
-			"settings":
-			{
-				"buffer_size": 310,
+				"buffer_size": 316,
 				"line_ending": "Unix"
 			}
 		}
@@ -619,17 +563,9 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 243.0,
+		"height": 159.0,
 		"selected_items":
 		[
-			[
-				"renm",
-				"File: Rename"
-			],
-			[
-				"shel",
-				"Set Syntax: Shell Script (Bash)"
-			],
 			[
 				"reili",
 				"Indentation: Reindent Lines"
@@ -1133,9 +1069,17 @@
 			[
 				"git comma",
 				"Git: Custom Command"
+			],
+			[
+				"giad.",
+				"Git: Add..."
+			],
+			[
+				"git add .",
+				"Git: Add..."
 			]
 		],
-		"width": 504.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -1155,18 +1099,17 @@
 	},
 	"file_history":
 	[
-		"/home/kham/Projekty/Rails/MediaShare/app/views/menu/_top_bar.html.haml",
-		"/home/kham/Projekty/Rails/MediaShare/Gemfile",
-		"/home/kham/.zshrc",
 		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802221630_add_devise_to_users.rb",
 		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802224214_create_users.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/views/media/index.html.haml",
 		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802222856_add_user_id_to_media.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/controllers/media_controller.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/models/medium.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/views/menu/_top_bar.html.haml",
 		"/home/kham/Projekty/Rails/MediaShare/app/views/layouts/application.html.erb",
 		"/home/kham/Projekty/Rails/MediaShare/config/routes.rb",
 		"/home/kham/Projekty/Rails/MediaShare/public/robots.txt",
+		"/home/kham/Projekty/Rails/MediaShare/Gemfile",
 		"/home/kham/Projekty/Rails/MediaShare/app/models/video_address.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/views/media/_medium.html.haml",
 		"/home/kham/Projekty/Experiments/hover_cards.html",
@@ -1189,6 +1132,7 @@
 		"/home/kham/Projekty/Ruby/exercism/ruby/bob/bob_test.rb",
 		"/home/kham/Projekty/Ruby/exercism/javascript/bob/bob.js",
 		"/home/kham/Projekty/Ruby/exercism/javascript/bob/bob_test.spec.js",
+		"/home/kham/.zshrc",
 		"/home/kham/Projekty/Ruby/exercism/javascript/bob/src/bob.js",
 		"/home/kham/Projekty/Ruby/exercism/javascript/bob/spec/bob_test_spec.js",
 		"/home/kham/Projekty/Ruby/fizzbuzz.rb",
@@ -1313,7 +1257,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"export",
 			"x",
 			"X",
 			"x",
@@ -1440,7 +1383,8 @@
 			":title",
 			"get_di",
 			"address",
-			",\n,\n,"
+			",\n,\n,",
+			",\n,"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1484,7 +1428,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1508,8 +1452,6 @@
 						{
 							"line_numbers": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
 							"vintage_lines.line": 6,
 							"vintage_lines.lines": 12,
 							"vintage_lines.mode": false
@@ -1572,8 +1514,6 @@
 						{
 							"line_numbers": true,
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
 							"vintage_lines.line": 8,
 							"vintage_lines.lines": 21,
 							"vintage_lines.mode": false
@@ -1623,141 +1563,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 507,
+						"buffer_size": 316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								496,
-								496
-							]
-						],
-						"settings":
-						{
-							"line_numbers": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"vintage_lines.line": 17,
-							"vintage_lines.lines": 20,
-							"vintage_lines.mode": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/assets/javascripts/facebook.coffee.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 569,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								441,
-								441
-							]
-						],
-						"settings":
-						{
-							"line_numbers": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage_lines.line": 15,
-							"vintage_lines.lines": 20,
-							"vintage_lines.mode": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "config/initializers/omniauth.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 173,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"line_numbers": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"vintage_lines.line": 3,
-							"vintage_lines.lines": 4,
-							"vintage_lines.mode": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "config/routes.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 187,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"line_numbers": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"vintage_lines.line": 8,
-							"vintage_lines.lines": 12,
-							"vintage_lines.mode": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/controllers/session_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85,
-								85
+								248,
+								248
 							]
 						],
 						"settings":
@@ -1766,103 +1580,6 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"vintage_lines.line": 5,
 							"vintage_lines.lines": 11,
-							"vintage_lines.mode": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "db/schema.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"line_numbers": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage_lines.line": 0,
-							"vintage_lines.lines": 44,
-							"vintage_lines.mode": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "config/initializers/devise.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4090,
-								4090
-							]
-						],
-						"settings":
-						{
-							"line_numbers": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage_lines.line": 73,
-							"vintage_lines.lines": 252,
-							"vintage_lines.mode": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 867.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/views/menu/_top_bar.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								310,
-								310
-							]
-						],
-						"settings":
-						{
-							"line_numbers": true,
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"vintage_lines.line": 6,
-							"vintage_lines.lines": 6,
 							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
@@ -1925,36 +1642,20 @@
 		"selected_items":
 		[
 			[
-				"topbar",
-				"app/views/menu/_top_bar.html.haml"
-			],
-			[
-				"top",
-				"app/views/menu/_top_bar.html.haml"
-			],
-			[
-				"devi",
-				"config/initializers/devise.rb"
-			],
-			[
-				"schem",
-				"db/schema.rb"
-			],
-			[
-				"user",
-				"app/models/user.rb"
-			],
-			[
-				"gemf",
-				"Gemfile"
-			],
-			[
 				"route",
 				"config/routes.rb"
 			],
 			[
+				"topbar",
+				"app/views/menu/_top_bar.html.haml"
+			],
+			[
 				"usercon",
 				"app/controllers/users_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
 			],
 			[
 				"media",
@@ -2027,6 +1728,10 @@
 			[
 				"conenvde",
 				"config/environments/development.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
 			],
 			[
 				"scss",
@@ -2435,6 +2140,18 @@
 			[
 				"userhelp",
 				"spec/support/user_helper_spec.rb"
+			],
+			[
+				"sessicon",
+				"app/controllers/session_controller.rb"
+			],
+			[
+				"sessmen",
+				"app/views/session/_menu.html.haml"
+			],
+			[
+				"menuto",
+				"app/views/menu/_top_bar.html.haml"
 			]
 		],
 		"width": 0.0
