@@ -4,3 +4,4 @@
   = render @media
 
 = link_to 'New Medium', new_medium_path if user_signed_in?
+.fb-comments{ data: { href: request.original_url, width: 470}}
