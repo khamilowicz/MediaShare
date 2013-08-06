@@ -520,22 +520,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/menu/_top_bar.html.haml",
-			"settings":
-			{
-				"buffer_size": 367,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/users/omniauth_callbacks_controller.rb",
-			"settings":
-			{
-				"buffer_size": 623,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "Gemfile",
 			"settings":
 			{
@@ -544,36 +528,70 @@
 			}
 		},
 		{
-			"file": "config/initializers/devise.rb",
+			"file": "app/views/devise/sessions/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 12527,
+				"buffer_size": 498,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/user.rb",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 1039,
+				"buffer_size": 819,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/routes.rb",
+			"file": "app/views/media/index.html.haml",
 			"settings":
 			{
-				"buffer_size": 205,
+				"buffer_size": 166,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/menu/_top_bar.html.haml",
+			"settings":
+			{
+				"buffer_size": 392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/top_bar.css.scss",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeGit:\n----------\n\n  SublimeGit 1.0.17\n  =================\n  \n  Bug Fixes:\n  ----------\n   - Fixes bug which had crept into the git-flow integration.\n  \n",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 201.0,
+		"height": 75.0,
 		"selected_items":
 		[
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"rnae",
+				"File: Rename"
+			],
 			[
 				"reili",
 				"Indentation: Reindent Lines"
@@ -617,10 +635,6 @@
 			[
 				"gemf",
 				"Git-flow: Feature Start From Commit"
-			],
-			[
-				"renam",
-				"File: Rename"
 			],
 			[
 				"ruby",
@@ -1081,13 +1095,9 @@
 			[
 				"git log",
 				"Git: Log All"
-			],
-			[
-				"git comma",
-				"Git: Custom Command"
 			]
 		],
-		"width": 530.0
+		"width": 324.0
 	},
 	"console":
 	{
@@ -1107,19 +1117,22 @@
 	},
 	"file_history":
 	[
-		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130803232917_add_columns_to_users.rb",
-		"/home/kham/Projekty/Rails/MediaShare/config/initializers/devise.rb",
-		"/home/kham/Projekty/Rails/MediaShare/db/schema.rb",
 		"/home/kham/Projekty/Rails/MediaShare/config/routes.rb",
-		"/home/kham/Projekty/Rails/MediaShare/config/initializers/omniauth.rb",
+		"/home/kham/Projekty/Rails/MediaShare/lib/tasks/db_prepare_all.rake",
+		"/home/kham/Projekty/Rails/MediaShare/app/views/menu/_top_bar.html.haml",
+		"/home/kham/Projekty/Rails/MediaShare/config/initializers/devise.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/models/user.rb",
+		"/home/kham/Projekty/Rails/MediaShare/app/controllers/users/omniauth_callbacks_controller.rb",
+		"/home/kham/Projekty/Rails/MediaShare/lib/tasks/preparedb.rake",
+		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130803232917_add_columns_to_users.rb",
+		"/home/kham/Projekty/Rails/MediaShare/db/schema.rb",
+		"/home/kham/Projekty/Rails/MediaShare/config/initializers/omniauth.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/controllers/users_controller.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/views/devise/registrations/new.html.erb",
 		"/home/kham/Projekty/Rails/MediaShare/db/migrate/20130802224455_add_nick_to_user.rb",
 		"/home/kham/Projekty/Rails/MediaShare/app/views/users/_form.html.haml",
 		"/home/kham/Projekty/Rails/MediaShare/app/views/layouts/application.html.erb",
 		"/home/kham/Projekty/Rails/MediaShare/app/controllers/session_controller.rb",
-		"/home/kham/Projekty/Rails/MediaShare/app/views/menu/_top_bar.html.haml",
 		"/home/kham/Projekty/Rails/MediaShare/Gemfile",
 		"/home/kham/Projekty/Rails/MediaShare/app/assets/javascripts/facebook.coffee.erb",
 		"/home/kham/Projekty/Rails/MediaShare/app/assets/stylesheets/application.css",
@@ -1231,10 +1244,7 @@
 		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/admin/types/index.html.haml",
 		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/layouts/admin_application.html.erb",
 		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/assets/stylesheets/application.css",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/assets/stylesheets/application.css.scss",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/admin/products/new_add_to_category.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/admin/types/new.html.haml",
-		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/views/products/show.html.haml"
+		"/home/kham/Projekty/Rails/jumpstart/New_store_flow/app/assets/stylesheets/application.css.scss"
 	],
 	"find":
 	{
@@ -1265,6 +1275,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"puts",
 			"true",
 			"export",
 			"x",
@@ -1391,8 +1402,7 @@
 			"commit",
 			"  ",
 			":title",
-			"get_di",
-			"address"
+			"get_di"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1436,73 +1446,11 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/menu/_top_bar.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
-							]
-						],
-						"settings":
-						{
-							"line_numbers": true,
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"vintage_lines.line": 2,
-							"vintage_lines.lines": 7,
-							"vintage_lines.mode": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/controllers/users/omniauth_callbacks_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 623,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								430,
-								430
-							]
-						],
-						"settings":
-						{
-							"line_numbers": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"vintage_lines.line": 7,
-							"vintage_lines.lines": 13,
-							"vintage_lines.mode": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "Gemfile",
 					"semi_transient": false,
 					"settings":
@@ -1533,30 +1481,90 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "config/initializers/devise.rb",
+					"buffer": 1,
+					"file": "app/views/devise/sessions/new.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12527,
+						"buffer_size": 498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								498,
+								498
 							]
 						],
 						"settings":
 						{
 							"line_numbers": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage_lines.line": 0,
-							"vintage_lines.lines": 0,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"vintage_lines.line": 16,
+							"vintage_lines.lines": 16,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"vintage_lines.line": 15,
+							"vintage_lines.lines": 30,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/media/index.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"vintage_lines.line": 3,
+							"vintage_lines.lines": 6,
 							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
@@ -1567,59 +1575,96 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/models/user.rb",
+					"file": "app/views/menu/_top_bar.html.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1039,
+						"buffer_size": 392,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								670,
-								670
+								96,
+								96
 							]
 						],
 						"settings":
 						{
 							"line_numbers": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"vintage_lines.line": 19,
-							"vintage_lines.lines": 35,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"vintage_lines.line": 3,
+							"vintage_lines.lines": 8,
 							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 153.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "app/assets/stylesheets/top_bar.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"vintage_lines.line": 1,
+							"vintage_lines.lines": 2,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "config/routes.rb",
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 205,
+						"buffer_size": 209,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								187,
-								187
+								209,
+								209
 							]
 						],
 						"settings":
 						{
 							"line_numbers": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"vintage_lines.line": 0,
-							"vintage_lines.lines": 0,
-							"vintage_lines.mode": false
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"vintage_lines.line": 13,
+							"vintage_lines.lines": 13,
+							"vintage_lines.mode": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1647,11 +1692,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1683,6 +1735,14 @@
 			[
 				"top",
 				"app/views/menu/_top_bar.html.haml"
+			],
+			[
+				"inde",
+				"app/views/media/index.html.haml"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
 			],
 			[
 				"user",
@@ -1815,10 +1875,6 @@
 			[
 				"mediainde",
 				"app/views/media/index.html.haml"
-			],
-			[
-				"apphtml",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"adduseri",
@@ -2187,10 +2243,6 @@
 			[
 				"salcon",
 				"app/controllers/sales_controller.rb"
-			],
-			[
-				"vieslae",
-				"app/views/sales/_sale.html.haml"
 			]
 		],
 		"width": 0.0
@@ -2200,6 +2252,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"jump",
+				"~/Projekty/Rails/Jumpstart_store/new_flow.sublime-project"
+			],
 			[
 				"ruby",
 				"~/Projekty/Ruby/Ruby.sublime-project"
@@ -2258,7 +2314,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 404.0,
+	"side_bar_width": 357.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
