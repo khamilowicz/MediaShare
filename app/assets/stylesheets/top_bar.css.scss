@@ -1,3 +1,49 @@
+$secondary: yellow ;
+$primary: white;
+
+html{ 
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  width: 100%;
+  background-color: $secondary;
+}
 .top_bar{
-  background-color: red;
+  background-color: $primary;
+  height: 4em;
+  width: 100%;
+
+  * {
+    display: inline-block;
+  }
+
+  .name, .session{
+    height: inherit;
+    font-size: 4.1em;
+    line-height: 0.9em;
+      font-weight: bold;
+
+    font-family: Consolas,Monaco,'Andale Mono',monospace;
+    a{ text-decoration: none;
+      color: $secondary;
+      transition-duration: 1s;
+    }
+    a:hover{ 
+      transition-duration: 1s;
+      text-decoration: none;
+      color: black;
+      background-color: $primary;
+    }
+  }
+
+  .session{
+    float: right;
+  }
+
+  .image{
+    float: right;
+    height: inherit;
+  }
 }

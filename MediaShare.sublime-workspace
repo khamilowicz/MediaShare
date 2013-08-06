@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"trd",
+				"trsdu	transition-duration: ${1:time};"
+			],
+			[
+				"a",
+				"crosshair"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"sh",
+				"tsh	text-shadow: ${1:hoff} ${2:voff} ${3:blur} ${4:#000};"
+			],
+			[
+				"backcl",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
 				"bac",
 				"background-color"
 			],
@@ -18,18 +66,6 @@
 			[
 				"st",
 				"style	Tag"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"pos",
-				"pos-a	position: absolute;"
 			],
 			[
 				"pad",
@@ -116,10 +152,6 @@
 				"relative"
 			],
 			[
-				"fon",
-				"fon	CSS - font: 1em/1.5 sans-serif;"
-			],
-			[
 				"ch",
 				"check_box"
 			],
@@ -174,10 +206,6 @@
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"wi",
@@ -486,34 +514,6 @@
 			[
 				"sho",
 				"should"
-			],
-			[
-				"should",
-				"should_not"
-			],
-			[
-				"Ca",
-				"Category"
-			],
-			[
-				"ct",
-				"category_name"
-			],
-			[
-				"price_",
-				"price_with_discount"
-			],
-			[
-				"sum",
-				"sum_of_notes"
-			],
-			[
-				"rev",
-				"reviews"
-			],
-			[
-				"for",
-				"forward_port"
 			]
 		]
 	},
@@ -547,7 +547,7 @@
 			"file": "app/views/media/index.html.haml",
 			"settings":
 			{
-				"buffer_size": 166,
+				"buffer_size": 165,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +555,7 @@
 			"file": "app/views/menu/_top_bar.html.haml",
 			"settings":
 			{
-				"buffer_size": 392,
+				"buffer_size": 455,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,18 +563,32 @@
 			"file": "app/assets/stylesheets/top_bar.css.scss",
 			"settings":
 			{
-				"buffer_size": 36,
+				"buffer_size": 743,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSublimeGit:\n----------\n\n  SublimeGit 1.0.17\n  =================\n  \n  Bug Fixes:\n  ----------\n   - Fixes bug which had crept into the git-flow integration.\n  \n",
+			"file": "app/assets/stylesheets/media.css.scss",
 			"settings":
 			{
-				"buffer_size": 209,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"scratch": true
+				"buffer_size": 1553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/media.js.coffee",
+			"settings":
+			{
+				"buffer_size": 480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/media/_medium.html.haml",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -589,12 +603,20 @@
 				"File: Rename"
 			],
 			[
-				"rnae",
-				"File: Rename"
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
 			],
 			[
 				"reili",
 				"Indentation: Reindent Lines"
+			],
+			[
+				"rnae",
+				"File: Rename"
 			],
 			[
 				"renm",
@@ -617,16 +639,8 @@
 				"File: Delete"
 			],
 			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
 				"github",
 				"GitHub: Switch Accounts"
-			],
-			[
-				"insl",
-				"Package Control: Install Package"
 			],
 			[
 				"reiil",
@@ -1097,7 +1111,7 @@
 				"Git: Log All"
 			]
 		],
-		"width": 324.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -1275,6 +1289,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"33",
 			"puts",
 			"true",
 			"export",
@@ -1401,8 +1416,7 @@
 			"save_and",
 			"commit",
 			"  ",
-			":title",
-			"get_di"
+			":title"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1446,7 +1460,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1470,8 +1484,8 @@
 						{
 							"line_numbers": true,
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"vintage_lines.line": 0,
-							"vintage_lines.lines": 0,
+							"vintage_lines.line": 2,
+							"vintage_lines.lines": 56,
 							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
@@ -1524,15 +1538,17 @@
 						"selection":
 						[
 							[
-								408,
-								408
+								176,
+								176
 							]
 						],
 						"settings":
 						{
 							"line_numbers": true,
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"vintage_lines.line": 15,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 5,
 							"vintage_lines.lines": 30,
 							"vintage_lines.mode": false
 						},
@@ -1548,23 +1564,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 166,
+						"buffer_size": 165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42,
-								42
+								165,
+								165
 							]
 						],
 						"settings":
 						{
 							"line_numbers": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"vintage_lines.line": 3,
-							"vintage_lines.lines": 6,
+							"vintage_lines.line": 7,
+							"vintage_lines.lines": 7,
 							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
@@ -1579,61 +1595,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 392,
+						"buffer_size": 455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								96
+								126,
+								126
 							]
 						],
 						"settings":
 						{
-							"line_numbers": true,
+							"line_numbers": false,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"vintage_lines.line": 3,
-							"vintage_lines.lines": 8,
-							"vintage_lines.mode": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "app/assets/stylesheets/top_bar.css.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 36,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"line_numbers": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"vintage_lines.line": 1,
-							"vintage_lines.lines": 2,
-							"vintage_lines.mode": false
+							"vintage_lines.lines": 10,
+							"vintage_lines.mode": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1642,29 +1621,135 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
+					"file": "app/assets/stylesheets/top_bar.css.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 209,
+						"buffer_size": 743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								209,
-								209
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"vintage_lines.line": 4,
+							"vintage_lines.lines": 47,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/assets/stylesheets/media.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1553,
+						"regions":
+						{
+							"bookmark_h":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										367,
+										367
+									]
+								]
+							}
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 40,
+							"vintage_lines.lines": 92,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 561.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/javascripts/media.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
 							]
 						],
 						"settings":
 						{
 							"line_numbers": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"vintage_lines.line": 13,
-							"vintage_lines.lines": 13,
-							"vintage_lines.mode": false,
-							"word_wrap": true
+							"vintage_lines.line": 11,
+							"vintage_lines.lines": 12,
+							"vintage_lines.mode": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/media/_medium.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"line_numbers": true,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"vintage_lines.line": 11,
+							"vintage_lines.lines": 11,
+							"vintage_lines.mode": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1692,18 +1777,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1732,6 +1810,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"medium",
+				"app/views/media/_medium.html.haml"
+			],
+			[
+				"mediainde",
+				"app/views/media/index.html.haml"
+			],
 			[
 				"top",
 				"app/views/menu/_top_bar.html.haml"
@@ -1867,14 +1953,6 @@
 			[
 				"orute",
 				"config/routes.rb"
-			],
-			[
-				"medium",
-				"app/views/media/_medium.html.haml"
-			],
-			[
-				"mediainde",
-				"app/views/media/index.html.haml"
 			],
 			[
 				"adduseri",

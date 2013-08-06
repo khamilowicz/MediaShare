@@ -1,7 +1,9 @@
-%h1 Listing media
+.medium_content
+  .header
+    .text Listing media
 
-.media
-  = render @media
-
-= link_to 'New Medium', new_medium_path if user_signed_in?
-.fb-comments{ data: { href: request.original_url, width: 470}}
+  .container 
+    .new_link
+      = link_to 'New Medium', new_medium_path if user_signed_in?
+  .media
+    = render @media

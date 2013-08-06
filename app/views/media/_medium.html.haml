@@ -3,6 +3,10 @@
     .user= medium.user
     .name= medium.name
     .date= medium.created_at
+  .col.middle
     .description= medium.description
   .col.right
     .address= embed_video(medium)
+  .facebook_comments
+    -address = "#{request.original_url}/medias/#{medium.id}"
+    .fb-comments{ data: { href: 'http://www.example.com', width: '470'}}

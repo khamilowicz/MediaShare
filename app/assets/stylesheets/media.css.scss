@@ -2,56 +2,103 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$secondary: yellow ;
+$primary: white;
 
 body{
   font-size: 12px;
+  
 }
 
-.media{
-  max-width: 50em;
+.header{
+  margin: 1em 0;
+  font-size: 3em;
+  font-weight: bold;
+  background-color: $primary;
+  padding: 0.6em;
+  .text{
+    margin-left: 2em;
+    color: $secondary;
 
-  .medium{
-    min-height: 13em;
-    width: 100%;
-    margin: 1em 0;
-    padding: 0.3em;
-    text-align: left;
+  }
+}
 
-    .col{
-      &.right{
-        float: right;
-      }
-      &.left{
-        padding: 0.6em 0 0 1.3em;
-      }
-      display: inline-block;
-    }
+.medium_content {
+    background-color: $primary;
 
-    .name{
+  .container{
+    height: 5em;
+    background-color: $secondary;
+
+    .new_link{
       position: relative;
-      font-size: 2em;
-      margin: 0.4em 0;
-      display: inline-block;
-      margin-right: 2em;
-    }
-    .date{
-      display: inline-block;
-    }
-    .description{
-      font-size: 1.3em;
-    }
-
-    .address{
+      bottom: -2.1em;
       background-color: red;
+      width: 40%;
+      height: 1.8em;
+      cursor:  pointer;
+      a{ 
+        margin: 0 2em;
+        font-size: 1.5em; text-decoration: none; color: white;
+      }
+    }
+  }
+  .media{
+    position: relative;
 
-      &:hover{
-        -webkit-transition-duration: 2s;
-        -moz-transition-duration: 2s;
-        -ms-transition-duration: 2s;
-        -o-transition-duration: 2s;
-        transition-duration: 2s;
 
-        background-color: blue;
+    .medium{
+
+      .facebook_comments{
+        display: none;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        -ms-transition-duration: 1s;
+        -o-transition-duration: 1s;
+        transition-duration: 1s; 
+      }
+
+      width: 90%;
+      margin: 0 3em;
+      background-color: $secondary;
+      min-height: 13em;
+      width: 100%;
+      margin: 1em 0;
+      padding: 0.3em;
+      text-align: left;
+
+      .col{
+        &.right{
+          float: right;
+          margin-right: 2em;
+          min-width: 25%;
+        }
+        &.middle{
+          min-width: 25%;
+
+        }
+        &.left{
+          min-width: 25%;
+          padding: 0.6em 0 0 1.3em;
+        }
+        float: left;
+        height: 100%;
+      }
+
+      .name, .description{
+        position: relative;
+        font-size: 2em;
+        margin: 0.4em 0;
+        display: inline-block;
+        margin-right: 2em;
+      }
+      .date{
+      }
+      .description{
+        font-size: 1.3em;
+      }
+
+      .address{
 
 
       }
