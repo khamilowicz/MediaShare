@@ -1,5 +1,9 @@
 %p#notice= notice
 
+.medium_content
+  .media
+    = render @user.media
+
 
 = link_to 'Edit', edit_user_path(@user)
 \|

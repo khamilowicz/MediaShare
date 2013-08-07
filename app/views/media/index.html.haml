@@ -2,8 +2,9 @@
   .header
     .text Listing media
 
-  .container 
-    .new_link
-      = link_to 'New Medium', new_medium_path if user_signed_in?
+  -if user_signed_in?
+    .container 
+      .new_link
+        = link_to 'New Medium', new_medium_path 
   .media
     = render @media

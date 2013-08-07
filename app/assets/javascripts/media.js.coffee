@@ -6,7 +6,4 @@ $ ->
   $('.new_link').on 'click', ->
     $(this).find('a')[0].click()
   $('.medium').on 'click', ->
-    $(this).find('.facebook_comments').css({
-      display: 'block';})
-  $('.medium').on 'mouseleave', ->
-    $(this).find('.facebook_comments').css("display", "none")
+    $(this).find('.facebook_comments').toggleClass('visible')
