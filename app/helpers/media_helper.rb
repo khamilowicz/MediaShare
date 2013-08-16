@@ -24,4 +24,17 @@ module MediaHelper
 		site = VideoAddress.find_site_name(address)
 		video_frame site, address
 	end
+
+	def embed_medium medium
+		return image_tag(medium.address) if picture? medium
+		embed_video medium
+	end
+
+	def picture? medium
+		medium.address.match(image_formats_regexp)
+	end
+
+	def image_formats_regexp
+		@image_formats ||= Regexp.union File.read(Rails.root.join('lib', 'assets', 'image_formats.txt')).split(',').map(&:strip)
+	end
 end

@@ -6,7 +6,7 @@
   .col.middle
     .description= medium.description
   .col.right
-    .address= embed_video(medium)
+    .address= embed_medium(medium)
   .facebook_comments
     -address = "#{request.original_url}/medias/#{medium.id}"
     .fb-comments{ data: { href: 'http://www.example.com', width: '470'}}

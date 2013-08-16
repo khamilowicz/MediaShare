@@ -1,4 +1,4 @@
-$secondary: yellow ;
+$secondary: rgb(255, 255, 134);
 $primary: white;
 
 html{ 
@@ -12,19 +12,19 @@ body{
 }
 .top_bar{
   background-color: $primary;
-  height: 4em;
   width: 100%;
-     @media screen and (max-width: 800px){
-      height: 12em;
-      *{
+
+  @media screen and (max-width: 800px){
+    *{
+      margin: 0.1em 0;
       display: block;
       width: 100%
-      }
+    }
 
-      .image{
-        width: 10%;
-      }
-     }
+    .image{
+      width: 10%;
+    }
+  }
 
   * {
     display: inline-block;
@@ -34,7 +34,7 @@ body{
     height: inherit;
     font-size: 4.1em;
     line-height: 0.9em;
-      font-weight: bold;
+    font-weight: bold;
 
     font-family: Consolas,Monaco,'Andale Mono',monospace;
     a{ text-decoration: none;

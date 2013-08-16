@@ -1,0 +1,23 @@
+footer{
+  height: 4em;
+  border-top: solid white 2em;
+}
+
+  a{
+    text-decoration: none;
+  }
+.logo{
+  font-size: 3em;
+  height: 1em;
+}
+
+.alert{
+  background-color: red;
+
+}
+.notice{
+ background-color: rgb(98, 235, 98);; 
+ font-size: 2em;
+ padding: 0.2em;
+ /*line-height: 0.1em;*/
+}

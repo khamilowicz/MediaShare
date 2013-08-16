@@ -7,8 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%- if notice || alert %>
  <p class="notice"><%= notice %></p>
  <p class="alert"><%= alert %></p>
+ <%- end %>
 
 
 <div class="logo">
@@ -25,6 +27,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
  <%= yield %>
+<footer></footer>
 
 </body>
 </html>

@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$secondary: yellow ;
+$secondary: rgb(255, 255, 134) ;
 $primary: white;
 
 body{
@@ -51,11 +51,8 @@ body{
       .facebook_comments{
         overflow: hidden;
         width: 100%;
-        .fb-comments{
-        }
-        &.visible{
-        height: 30em;
-        }
+        .fb-comments{}
+        &.visible{height: 30em; }
 
         height: 0;
         -webkit-transition-duration: 1s;
@@ -65,41 +62,39 @@ body{
         transition-duration: 1s; 
       }
 
-      width: 90%;
-      margin: 0 3em;
       background-color: $secondary;
-      min-height: 13em;
       width: 100%;
       margin: 1em 0;
-      padding: 0.3em;
       text-align: left;
 
       .col{
-        @media screen and (max-width: 800px){
-          &.right, &.middle, &.left{
-            width: 90%;
-            margin: 1em 1em;
-            text-align: center;
-          }
-        }
         &.right{
           float: right;
           height: 100%;
           margin-right: 2em;
-          min-width: 25%;
+          min-width: 30%;
         }
         &.middle{
-          min-width: 25%;
+          min-width: 30%;
           height: 100%;
 
         }
         &.left{
           height: 100%;
-          min-width: 25%;
+          min-width: 30%;
           padding: 0.6em 0 0 1.3em;
         }
         float: left;
         height: 100%;
+        @media screen and (max-width: 800px){
+          &.right, &.middle, &.left{
+            width: 100%;
+            margin: 1em 0;
+            text-align: center;
+            margin-right: 0;
+            padding: 0;
+          }
+        }
       }
 
       .name, .description{
@@ -107,7 +102,11 @@ body{
         font-size: 2em;
         margin: 0.4em 0;
         display: inline-block;
-        margin-right: 2em;
+        font: 33px/20px "Droid Sans",Arial,"Helvetica Neue","Lucida Grande",sans-serif;
+      }
+
+      .user{
+        text-align: left;
       }
       .date{
       }
@@ -116,7 +115,31 @@ body{
       }
 
       .address{
+        height: 0;
+        position: relative;
+        padding-bottom: 56.25%;
+        width: 100%;
+        text-align: center;
 
+
+          @media screen and (max-width: 800px){
+            img{
+              width: 100%;
+              height: none;
+            }
+          }
+        @media screen and (min-width: 800px){
+            img{
+              height: 100%;
+            }
+          }
+        iframe{
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 99%;
+        }
 
       }
     }
